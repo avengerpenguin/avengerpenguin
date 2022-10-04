@@ -1,0 +1,33 @@
+---
+name: Update README with data
+
+on:
+  schedule:
+    - cron:  '06 00 * * *'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.10
+      - uses: actions/cache@v1
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      - name: install python requirements
+        run: pip install -r requirements.txt
+      - name: get data
+        run: |
+          python analytics.py
+        env:
+          TOKEN: ${{ secrets.GOOGLE_TOKEN }}
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update with latest data
