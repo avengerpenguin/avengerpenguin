@@ -12,6 +12,6 @@ Top five pages:
 
 <ul>
 {% for page in pages %}
-    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+<li><a href="{{ page.url }}">{{ page.title }}</a></li>
 {% endfor %}
 </ul>
