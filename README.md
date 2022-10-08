@@ -14,9 +14,9 @@ Top five pages:
 
 <li><a href="https://avengerpenguin.com/digital-garden/">Digital Garden</a></li>
 
-<li><a href="https://avengerpenguin.com/what-is-devops/">What is DevOps?</a></li>
-
 <li><a href="https://avengerpenguin.com/philosophy/">Philosophy</a></li>
+
+<li><a href="https://avengerpenguin.com/what-is-devops/">What is DevOps?</a></li>
 
 <li><a href="https://avengerpenguin.com/devops/">DevOps</a></li>
 
