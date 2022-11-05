@@ -14,9 +14,9 @@ Top five pages:
 
 <li><a href="https://avengerpenguin.com/now/">What I am doing now</a></li>
 
-<li><a href="https://avengerpenguin.com/philosophy/">Philosophy</a></li>
-
 <li><a href="https://avengerpenguin.com/digital-garden/">Digital Garden</a></li>
+
+<li><a href="https://avengerpenguin.com/philosophy/">Philosophy</a></li>
 
 <li><a href="https://avengerpenguin.com/devops/">DevOps</a></li>
 
