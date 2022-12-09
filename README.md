@@ -16,10 +16,10 @@ Top five pages:
 
 <li><a href="https://avengerpenguin.com/digital-garden/">Digital Garden</a></li>
 
-<li><a href="https://avengerpenguin.com/productivity/">Productivity</a></li>
-
 <li><a href="https://avengerpenguin.com/8values/">8values</a></li>
 
 <li><a href="https://avengerpenguin.com/obsidian/">Obsidian</a></li>
+
+<li><a href="https://avengerpenguin.com/productivity/">Productivity</a></li>
 
 </ul>
