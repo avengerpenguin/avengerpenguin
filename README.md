@@ -16,8 +16,6 @@ Top five pages:
 
 <li><a href="https://avengerpenguin.com/building-a-successful-platform/">Building a Successful Platform</a></li>
 
-<li><a href="https://avengerpenguin.com/8values/">8values</a></li>
-
 <li><a href="https://avengerpenguin.com/digital-garden/">Digital Garden</a></li>
 
 <li><a href="https://avengerpenguin.com/keeping-up-with-javascript/">The Simplest Way to “Keep Up” With the JavaScript Ecosystem</a></li>
