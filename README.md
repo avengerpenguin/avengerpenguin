@@ -12,6 +12,8 @@ Top five pages:
 
 <ul>
 
+<li><a href="https://avengerpenguin.com/tech-radar/">Tech Radar</a></li>
+
 <li><a href="https://avengerpenguin.com/digital-garden/">Digital Garden</a></li>
 
 <li><a href="https://avengerpenguin.com/oxford-comma/">Oxford Comma</a></li>
