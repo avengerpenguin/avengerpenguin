@@ -18,8 +18,8 @@ Top five pages:
 
 <li><a href="https://avengerpenguin.com/oxford-comma/">Oxford Comma</a></li>
 
-<li><a href="https://avengerpenguin.com/building-a-successful-platform/">Building a Successful Platform</a></li>
-
 <li><a href="https://avengerpenguin.com/keeping-up-with-javascript/">The Simplest Way to “Keep Up” With the JavaScript Ecosystem</a></li>
+
+<li><a href="https://avengerpenguin.com/building-a-successful-platform/">Building a Successful Platform</a></li>
 
 </ul>
