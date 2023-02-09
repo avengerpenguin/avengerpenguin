@@ -20,6 +20,6 @@ Top five pages:
 
 <li><a href="https://avengerpenguin.com/hateoas-or-rpc/">It’s either <span class="caps">HATEOAS</span> or it’s <span class="caps">RPC</span></a></li>
 
-<li><a href="https://avengerpenguin.com/keeping-up-with-javascript/">The Simplest Way to “Keep Up” With the JavaScript Ecosystem</a></li>
+<li><a href="https://avengerpenguin.com/mbti-alignments/"><span class="caps">MBTI</span> Alignments</a></li>
 
 </ul>
