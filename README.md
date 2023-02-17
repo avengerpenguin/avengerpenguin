@@ -12,8 +12,6 @@ Top five pages:
 
 <ul>
 
-<li><a href="https://avengerpenguin.com/things-i-have-made/">Things I Have Made</a></li>
-
 <li><a href="https://avengerpenguin.com/hateoas-or-rpc/">It’s either <span class="caps">HATEOAS</span> or it’s <span class="caps">RPC</span></a></li>
 
 </ul>
