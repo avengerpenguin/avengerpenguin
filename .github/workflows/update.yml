@@ -34,6 +34,6 @@ jobs:
           python analytics.py
         env:
           TOKEN: ${{ secrets.GOOGLE_TOKEN }}
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update with latest data
