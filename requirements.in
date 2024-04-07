@@ -1,0 +1,5 @@
+pip-tools
+google-api-python-client
+google-analytics-data
+google-analytics-admin
+Jinja2

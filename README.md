@@ -12,4 +12,14 @@ Top five pages:
 
 <ul>
 
+<li><a href="https://avengerpenguin.com/now/">What I am doing now</a></li>
+
+<li><a href="https://avengerpenguin.com/tech-radar/">Tech Radar</a></li>
+
+<li><a href="https://avengerpenguin.com/digital-garden/">Digital Garden</a></li>
+
+<li><a href="https://avengerpenguin.com/entp-productivity/">ENTP Productivity</a></li>
+
+<li><a href="https://avengerpenguin.com/now/">What I am doing now</a></li>
+
 </ul>
