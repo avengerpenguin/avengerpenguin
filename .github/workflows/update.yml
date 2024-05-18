@@ -6,15 +6,15 @@ on:
     branches:
       - main
   schedule:
-    - cron:  '06 00 * * *'
+    - cron: "06 00 * * *"
 
 jobs:
   publish:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: 'read'
-      id-token: 'write'
+      contents: "read"
+      id-token: "write"
 
     steps:
       - uses: actions/checkout@v4
@@ -33,13 +33,13 @@ jobs:
             ${{ runner.os }}-pip-
       - name: install python requirements
         run: pip install -r requirements.txt
-      - id: 'auth'
-        name: 'Authenticate to GCP'
-        uses: 'google-github-actions/auth@v2'
+      - id: "auth"
+        name: "Authenticate to GCP"
+        uses: "google-github-actions/auth@v2"
         with:
-            create_credentials_file: 'true'
-            workload_identity_provider: 'projects/791592842889/locations/global/workloadIdentityPools/github/providers/my-repo'
-            service_account: 'analytics@avengerpenguin.iam.gserviceaccount.com'
+          create_credentials_file: "true"
+          workload_identity_provider: "projects/791592842889/locations/global/workloadIdentityPools/github/providers/my-repo"
+          service_account: "analytics@avengerpenguin.iam.gserviceaccount.com"
       - name: get data
         run: |
           python analytics.py
