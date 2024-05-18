@@ -1,15 +1,12 @@
-import google.auth
 from google.analytics.data_v1beta import BetaAnalyticsDataClient
 from google.analytics.data_v1beta.types import (
     DateRange,
     Dimension,
     Metric,
-    RunReportRequest,
     OrderBy,
+    RunReportRequest,
 )
-
-from google.auth import impersonated_credentials
-from jinja2 import FileSystemLoader, Environment
+from jinja2 import Environment, FileSystemLoader
 
 SCOPES = ["https://www.googleapis.com/auth/analytics.readonly"]
 SERVICE_ACCOUNT_EMAIL = "analytics@avengerpenguin.iam.gserviceaccount.com"
@@ -30,7 +27,9 @@ def main():
         dimensions=[Dimension(name="pagePath"), Dimension(name="pageTitle")],
         metrics=[Metric(name="activeUsers")],
         date_ranges=[DateRange(start_date="28daysAgo", end_date="today")],
-        order_bys=[OrderBy(desc=True, metric=OrderBy.MetricOrderBy(metric_name="activeUsers"))]
+        order_bys=[
+            OrderBy(desc=True, metric=OrderBy.MetricOrderBy(metric_name="activeUsers"))
+        ],
     )
     response = client.run_report(request)
 
@@ -62,7 +61,11 @@ def main():
     # )
 
     data = [
-        (row.dimension_values[0].value, row.dimension_values[1].value, row.metric_values[0].value)
+        (
+            row.dimension_values[0].value,
+            row.dimension_values[1].value,
+            row.metric_values[0].value,
+        )
         for row in response.rows
     ]
 
